@@ -1,8 +1,8 @@
 {
-  "version": "0.6.0",
-  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.6.0.zip",
-  "released": "2026-10-23T19:16:48Z",
+  "version": "0.7.0",
+  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.7.0.zip",
+  "released": "2026-10-23T19:41:00Z",
   "requires_php": "8.1",
   "requires": "6.4",
-  "changelog": "- Plugin 0.6.0: live page panel, structured-data viewer, Not-updated-in-12-months filter"
+  "changelog": "- Plugin 0.7.0: Treatments mentioned as article cards; header top bar text\n- Header top bar: free left text (site-wide + per article) and phone on the right"
 }
