@@ -1,8 +1,8 @@
 {
-  "version": "0.3.6",
-  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.3.6.zip",
-  "released": "2026-10-23T17:26:31Z",
+  "version": "0.4.0",
+  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.4.0.zip",
+  "released": "2026-10-23T17:56:15Z",
   "requires_php": "8.1",
   "requires": "6.4",
-  "changelog": "- Plugin 0.3.6: search block with popular searches (no FAQ, content score below 90)"
+  "changelog": "- Plugin 0.4.0: Edit article screen (phase 1)"
 }
