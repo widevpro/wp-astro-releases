@@ -1,8 +1,8 @@
 {
-  "version": "0.7.1",
-  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.7.1.zip",
-  "released": "2026-10-23T20:04:19Z",
+  "version": "0.7.2",
+  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.7.2.zip",
+  "released": "2026-10-23T20:07:39Z",
   "requires_php": "8.1",
   "requires": "6.4",
-  "changelog": "- Plugin 0.7.1: clear cached pages when a build succeeds; shorter edge-cache lifetime"
+  "changelog": "- Plugin 0.7.2: Purge page cache and Rebuild buttons sent GET to POST-only routes"
 }
