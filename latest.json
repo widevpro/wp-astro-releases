@@ -1,8 +1,8 @@
 {
-  "version": "0.7.0",
-  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.7.0.zip",
-  "released": "2026-10-23T19:41:00Z",
+  "version": "0.7.1",
+  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.7.1.zip",
+  "released": "2026-10-23T20:04:19Z",
   "requires_php": "8.1",
   "requires": "6.4",
-  "changelog": "- Plugin 0.7.0: Treatments mentioned as article cards; header top bar text\n- Header top bar: free left text (site-wide + per article) and phone on the right"
+  "changelog": "- Plugin 0.7.1: clear cached pages when a build succeeds; shorter edge-cache lifetime"
 }
