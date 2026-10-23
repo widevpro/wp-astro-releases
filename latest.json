@@ -1,8 +1,8 @@
 {
-  "version": "0.5.1",
-  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.5.1.zip",
-  "released": "2026-10-23T19:08:11Z",
+  "version": "0.6.0",
+  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.6.0.zip",
+  "released": "2026-10-23T19:16:48Z",
   "requires_php": "8.1",
   "requires": "6.4",
-  "changelog": "- Plugin 0.5.1: empty FAQ / Sources / TL;DR show as off and switch on with the first content"
+  "changelog": "- Plugin 0.6.0: live page panel, structured-data viewer, Not-updated-in-12-months filter"
 }
