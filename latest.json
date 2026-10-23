@@ -1,8 +1,8 @@
 {
-  "version": "0.3.2",
-  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.3.2.zip",
-  "released": "2026-10-23T13:56:45Z",
+  "version": "0.3.3",
+  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.3.3.zip",
+  "released": "2026-10-23T14:15:14Z",
   "requires_php": "8.1",
   "requires": "6.4",
-  "changelog": "- Plugin 0.3.2: W-Blog menu title and logo icon in the admin sidebar\n- Docs: full README (setup, Netlify modes, workflows, releases, troubleshooting)"
+  "changelog": "- Plugin 0.3.3: compact Articles table, FAQ editor, short dates"
 }
