@@ -1,8 +1,8 @@
 {
-  "version": "0.4.0",
-  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.4.0.zip",
-  "released": "2026-10-23T17:56:15Z",
+  "version": "0.5.0",
+  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.5.0.zip",
+  "released": "2026-10-23T18:50:31Z",
   "requires_php": "8.1",
   "requires": "6.4",
-  "changelog": "- Plugin 0.4.0: Edit article screen (phase 1)"
+  "changelog": "- Fix ServicesMentioned image typing\n- Plugin 0.5.0: Edit article phase 2 — author, review, treatments, page elements, schema type\n- CI: the plugin rsync deploy only runs in the original repository"
 }
