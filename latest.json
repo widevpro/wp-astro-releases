@@ -1,8 +1,8 @@
 {
-  "version": "0.7.2",
-  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.7.2.zip",
-  "released": "2026-10-23T20:07:39Z",
+  "version": "0.8.0",
+  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.8.0.zip",
+  "released": "2026-10-23T20:29:38Z",
   "requires_php": "8.1",
   "requires": "6.4",
-  "changelog": "- Plugin 0.7.2: Purge page cache and Rebuild buttons sent GET to POST-only routes"
+  "changelog": "- Plugin 0.8.0: Live page status shows whether the last save is on the public page"
 }
