@@ -1,8 +1,8 @@
 {
-  "version": "0.12.0",
-  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.12.0.zip",
-  "released": "2026-10-24T11:08:37Z",
+  "version": "0.13.0",
+  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.13.0.zip",
+  "released": "2026-10-24T19:41:55Z",
   "requires_php": "8.1",
   "requires": "6.4",
-  "changelog": "- Plugin 0.12.0: top bar per page, draggable categories, no-hero header, idle publishing from admin screens\n- Categories as draggable chips; the first one is shown above the title\n- Top bar editable per page: text and phone, defaults from Content\n- Idle publishing starts from open admin screens; no-hero header layout"
+  "changelog": "- Plugin 0.13.0: guide for the Body editor, summary vs meta description, templates and menu [skip netlify]\n- Body editor: headings H2-H6, B/I/U, lists, links and an insert-table button (no alignment, quote or line); tables scroll sideways on phones; H6 style\n- Meta description and TL;DR are separate: description = own text, else the Content mask with variables, else nothing; score and admin preview no longer use the summary\n- No page description at all when nothing is written and WordPress has no text to give\n- TL;DR block only shows a written summary; WordPress's automatic excerpt is no longer used\n- Byline text always left-aligned, also inside the centred header\n- Fix FAQ and other meta values being saved empty when they contain quotes; Full width template; build assets served locally; dev server notices new articles\n- Fix image picker: 'close' fires before 'select', so every picked image was discarded\n- Header menu only from the Content tab; no menu and no empty container when empty\n- Top bar: HTML on the right, spaces kept while typing, shorter copy with a Content tab link; fix meta values with quotes being saved empty\n- Dev server re-reads WordPress Content/Styles on change (dev only)"
 }
