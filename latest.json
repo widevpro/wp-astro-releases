@@ -1,8 +1,8 @@
 {
-  "version": "0.10.0",
-  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.10.0.zip",
-  "released": "2026-10-23T21:18:39Z",
+  "version": "0.11.0",
+  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.11.0.zip",
+  "released": "2026-10-24T09:53:38Z",
   "requires_php": "8.1",
   "requires": "6.4",
-  "changelog": "- Plugin 0.10.0: one admin kit — tokens and shared styles, General and Styles screens, Guide and navigation in the same look"
+  "changelog": "- Plugin 0.11.0: batched publishing (Publish now, pending bar, publish modes); show last built copy from the old address after a rename"
 }
