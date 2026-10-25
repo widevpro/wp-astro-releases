@@ -1,8 +1,8 @@
 {
-  "version": "0.14.0",
-  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.14.0.zip",
-  "released": "2026-10-24T20:17:38Z",
+  "version": "0.15.0",
+  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.15.0.zip",
+  "released": "2026-10-25T22:38:40Z",
   "requires_php": "8.1",
   "requires": "6.4",
-  "changelog": "- Plugin 0.14.0: Import missing images; developer guide\n- Import missing images: copy the pictures articles use from the old site, fix links and featured images (General tab)\n- Developer guide [skip netlify]"
+  "changelog": "- Plugin 0.15.0: company card, skins and the Styles variables field, image hints, audit fixes\n- Docs: skins and the Styles tab (DEVELOPER.md); CI checks the generated variable list is up to date\n- Audit fixes: titles from WordPress printed as safe text (a stray tag could swallow the page); admin fields linked to their labels (a11y)\n- Admin: image requirement hints (featured image with live width warning, company picture, author photo)\n- Frontend: header logo served at displayed size (260/400 w srcset); author Gravatar photo downloaded and resized at build\n- Styles tab: one pre-filled CSS field with every variable and its default (brand colours included), only changed lines are stored; brand colours follow into the lighter shades\n- Styles tab: skin variables as one highlighted CSS field (WordPress CodeMirror) instead of a field per variable; custom CSS uses the same editor\n- Styles tab: generated Design variables list (search, groups, reset, paste CSS, copy as CSS/JSON); server-side per-type validation; token registry generated from tokens.css + tokens.meta.json\n- Skins: neutral defaults in the lowest CSS layer, skin tokens (theme.json + WordPress), skin variables for headings, links, buttons, boxes and hero; Blyss keeps today's look, Dayo gets its own skin\n- Company card: standalone block with per-part switches (site-wide in Content, per article in the edit screen), editable title, picture and description; reviews fields no longer hidden"
 }
