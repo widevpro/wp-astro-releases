@@ -1,8 +1,8 @@
 {
-  "version": "0.15.1",
-  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.15.1.zip",
-  "released": "2026-10-26T09:33:53Z",
+  "version": "0.15.2",
+  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.15.2.zip",
+  "released": "2026-10-26T10:02:56Z",
   "requires_php": "8.1",
   "requires": "6.4",
-  "changelog": "- Plugin 0.15.1: import SEO titles and descriptions from the old site\n- Import SEO titles and descriptions from the old site (Yoast data) into the SEO card; only empty fields are filled"
+  "changelog": "- Plugin 0.15.2: SEO import reports articles that already had values and lists only published articles as missing; fonts from WordPress\n- Styles: Google font name and weights for headings and text set from WordPress (build reads them); validated server-side"
 }
