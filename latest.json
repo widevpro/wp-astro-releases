@@ -1,8 +1,8 @@
 {
-  "version": "0.16.6",
-  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.16.6.zip",
-  "released": "2026-10-26T18:55:55Z",
+  "version": "0.16.7",
+  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.16.7.zip",
+  "released": "2026-10-26T19:08:14Z",
   "requires_php": "8.1",
   "requires": "6.4",
-  "changelog": "- Plugin 0.16.6: images, CSS and fonts load from the WordPress address (one connection, faster first paint); hero image decodes normally; the headings font is preloaded; sidebar CTA title centred; phone aligned left on phones; more space between FAQ questions"
+  "changelog": "- Plugin 0.16.7: hosted images, CSS and fonts are saved into the site's /_astro/ folder (works with hosts that redirect missing files to index.php); Netlify's helper script is also removed from pages cached by an older version"
 }
