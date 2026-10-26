@@ -1,8 +1,8 @@
 {
-  "version": "0.16.8",
-  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.16.8.zip",
-  "released": "2026-10-26T19:40:41Z",
+  "version": "0.16.9",
+  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.16.9.zip",
+  "released": "2026-10-26T20:13:11Z",
   "requires_php": "8.1",
   "requires": "6.4",
-  "changelog": "- Plugin 0.16.8: hosted images, CSS and fonts are copied into uploads/wp-astro-assets (plain static files on every host) right after a page is printed, and the page links to them there"
+  "changelog": "- Plugin 0.16.9: more air in the article header (smaller h1 with a looser line, bigger gaps and padding), taller tap area for the top menu, roomier sidebar CTA"
 }
