@@ -1,8 +1,8 @@
 {
-  "version": "0.15.3",
-  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.15.3.zip",
-  "released": "2026-10-26T10:11:33Z",
+  "version": "0.15.4",
+  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.15.4.zip",
+  "released": "2026-10-26T11:02:10Z",
   "requires_php": "8.1",
   "requires": "6.4",
-  "changelog": "- Plugin 0.15.3: Dayo skin matches the main site (font weights, letter spacing, line heights, text colour, buttons, card boxes); body text colour variable; unused variables removed"
+  "changelog": "- Plugin 0.15.4: Styles field shows the client's own skin values as defaults (build publishes /wa-skin.json); byline without a cropped logo\n- Byline: no cropped logo avatar for an organisation author"
 }
