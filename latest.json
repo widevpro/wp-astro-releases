@@ -1,8 +1,8 @@
 {
-  "version": "0.16.0",
-  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.16.0.zip",
-  "released": "2026-10-26T12:25:54Z",
+  "version": "0.16.1",
+  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.16.1.zip",
+  "released": "2026-10-26T12:40:57Z",
   "requires_php": "8.1",
   "requires": "6.4",
-  "changelog": "- Plugin 0.16.0: phone numbers use non-breaking hyphens, docs for buttons and article headings, version bump\n- Frontend cleanup: two-button CTA (primary/secondary, equal padding, black/white default, smooth hover), headings inside the article use the text font and a smaller aligned scale, dead services/nav config, unused CSS and del.css removed, Dayo button text accessible; plugin renamed W-Blog\n- Remove 'Reviewed by' / 'Last reviewed' from the edit screen, the REST API, the byline and the structured data"
+  "changelog": "- Plugin 0.16.1: Dayo link/outline colour #FF8433, white button text, pill buttons weight 500; one page width for header, hero and content (82rem); block-editor lists keep their marks; box padding gap-lg/gap-md"
 }
