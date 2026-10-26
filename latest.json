@@ -1,8 +1,8 @@
 {
-  "version": "0.16.4",
-  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.16.4.zip",
-  "released": "2026-10-26T16:41:08Z",
+  "version": "0.16.5",
+  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.16.5.zip",
+  "released": "2026-10-26T18:00:32Z",
   "requires_php": "8.1",
   "requires": "6.4",
-  "changelog": "- Plugin 0.16.4: Netlify's helper script is removed from printed pages; card images lighter\n- Pages printed from Netlify no longer carry Netlify's helper script (a 404 request and a console error on the WordPress address); card images use quality 60"
+  "changelog": "- Plugin 0.16.5: social profile links in the footer on their own left-aligned row\n- Footer: the social links get their own left-aligned row under the copyright and legal links (a wrapping row on phones)\n- Social profile links are shown in the footer as plain text links (Facebook, X, LinkedIn …), with a switch under Content → Footer; they are always sent to Google as structured data"
 }
