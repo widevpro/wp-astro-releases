@@ -1,8 +1,8 @@
 {
-  "version": "0.15.4",
-  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.15.4.zip",
-  "released": "2026-10-26T11:02:10Z",
+  "version": "0.16.0",
+  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.16.0.zip",
+  "released": "2026-10-26T12:25:54Z",
   "requires_php": "8.1",
   "requires": "6.4",
-  "changelog": "- Plugin 0.15.4: Styles field shows the client's own skin values as defaults (build publishes /wa-skin.json); byline without a cropped logo\n- Byline: no cropped logo avatar for an organisation author"
+  "changelog": "- Plugin 0.16.0: phone numbers use non-breaking hyphens, docs for buttons and article headings, version bump\n- Frontend cleanup: two-button CTA (primary/secondary, equal padding, black/white default, smooth hover), headings inside the article use the text font and a smaller aligned scale, dead services/nav config, unused CSS and del.css removed, Dayo button text accessible; plugin renamed W-Blog\n- Remove 'Reviewed by' / 'Last reviewed' from the edit screen, the REST API, the byline and the structured data"
 }
