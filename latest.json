@@ -1,8 +1,8 @@
 {
-  "version": "0.16.3",
-  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.16.3.zip",
-  "released": "2026-10-26T16:20:09Z",
+  "version": "0.16.4",
+  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.16.4.zip",
+  "released": "2026-10-26T16:41:08Z",
   "requires_php": "8.1",
   "requires": "6.4",
-  "changelog": "- Plugin 0.16.3: hero picture never cropped; header without a picture centred\n- Header without a featured image is centred again (as before); only the two byline lines stay left-aligned to each other\n- Hero picture is never cropped: the box follows the picture's own shape (height capped at --hero-media-max, shown whole inside the cap); featured-image hint and guide updated"
+  "changelog": "- Plugin 0.16.4: Netlify's helper script is removed from printed pages; card images lighter\n- Pages printed from Netlify no longer carry Netlify's helper script (a 404 request and a console error on the WordPress address); card images use quality 60"
 }
