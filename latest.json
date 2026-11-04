@@ -1,8 +1,8 @@
 {
-  "version": "0.16.9",
-  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.16.9.zip",
-  "released": "2026-10-26T20:13:11Z",
+  "version": "0.16.10",
+  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.16.10.zip",
+  "released": "2026-11-04T17:47:39Z",
   "requires_php": "8.1",
   "requires": "6.4",
-  "changelog": "- Plugin 0.16.9: more air in the article header (smaller h1 with a looser line, bigger gaps and padding), taller tap area for the top menu, roomier sidebar CTA"
+  "changelog": "- TL;DR summary: bold and bulleted lists, Enter makes a new paragraph or bullet\n- CI: publish a site's build by rsync when no Netlify site is set, and add an rsync-only plugin deploy for widev.pro\n- New site folder frontend/src/sites/widev (Widev Remote Team: logo, Inter, near-black buttons, light hero); the hero's category chip and meta follow the hero text colour so light and dark heroes both work\n- Deploy workflow runs in widevpro/wp-astro (the working repository); docs no longer list the old webimdeveloper copy"
 }
