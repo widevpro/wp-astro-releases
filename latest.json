@@ -1,8 +1,8 @@
 {
-  "version": "0.17.0",
-  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.17.0.zip",
-  "released": "2026-11-04T18:18:21Z",
+  "version": "0.18.0",
+  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.18.0.zip",
+  "released": "2026-11-05T09:20:33Z",
   "requires_php": "8.1",
   "requires": "6.4",
-  "changelog": "- Content rhythm and cleaning, table scroll cue, logo width and hero button variables\n- Hero video: per-article looping video in the hero (WebM + MP4, poster, autoplay/loop/muted/preload), poster-first and phones keep the poster; uploaded videos in the text load lazily"
+  "changelog": "- Release 0.18.0: Skin variables per component, Health check and terminal commands on the Deploy tab, smaller hero title, whole company logo, Business/Services wording, clean heading outline, Cloudflare purge after a build\n- Deploy tab: fix the health-check address, wrap long commands\n- Deploy tab: Health check (GitHub access, last request, build folder, flagged pages, live page) and Check it yourself (copy-ready terminal commands for this site)\n- CI: the rsync build clears the Cloudflare cache after the files are in place (optional: needs CLOUDFLARE_API_TOKEN and CLOUDFLARE_ZONE_ID in the Environment)\n- Skin variables grouped per component (buttons, chips, callouts, tables, header/footer, hero); smaller default hero title; whole logo in the company card; Business/Services wording; clean heading outline\n- CI: deploy.yml deploys only widev.pro (rsync-only key); drop the dayo-staging and Blyss jobs of other projects. Docs: the GitHub token needs Contents: Read and write\n- CI: rsync to the widev.pro server now sets group-writable permissions (-p with --chmod), so WordPress's own updater can replace the plugin folder without leaving it half-removed"
 }
