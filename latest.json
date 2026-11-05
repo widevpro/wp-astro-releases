@@ -1,8 +1,8 @@
 {
-  "version": "0.18.1",
-  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.18.1.zip",
-  "released": "2026-11-05T11:44:12Z",
+  "version": "0.18.2",
+  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.18.2.zip",
+  "released": "2026-11-05T15:07:01Z",
   "requires_php": "8.1",
   "requires": "6.4",
-  "changelog": "- Deploy tab: 'Cloudflare keeps pages for' - Astro pages tell Cloudflare how long it may keep them (Cloudflare-CDN-Cache-Control), so one Cache Rule covers every article and WordPress pages are never cached\n- CI: the Cloudflare purge step belongs to the rsync job (it had landed in the Netlify job, so it never ran for rsync sites)"
+  "changelog": "- Astro pages tell WordPress page-cache plugins not to keep a copy (DONOTCACHEPAGE), so WP Super Cache / W3TC / WP Rocket can run beside W-Blog without ever showing a stale article after a rebuild"
 }
