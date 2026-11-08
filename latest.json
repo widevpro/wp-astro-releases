@@ -1,8 +1,8 @@
 {
-  "version": "0.18.2",
-  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.18.2.zip",
-  "released": "2026-11-05T15:07:01Z",
+  "version": "0.19.0",
+  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.19.0.zip",
+  "released": "2026-11-08T15:01:38Z",
   "requires_php": "8.1",
   "requires": "6.4",
-  "changelog": "- Astro pages tell WordPress page-cache plugins not to keep a copy (DONOTCACHEPAGE), so WP Super Cache / W3TC / WP Rocket can run beside W-Blog without ever showing a stale article after a rebuild"
+  "changelog": "- Header strip shows a hand-written right-side label without a phone number; hero video gets an optional pause button (off by default) and a shape note; social share image tucked under an optional toggle\n- Buttons in article text keep their own label colour (the text-link rule no longer paints them); widev gets square buttons and a white primary label by default"
 }
