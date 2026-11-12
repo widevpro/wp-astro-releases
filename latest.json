@@ -1,8 +1,8 @@
 {
-  "version": "0.19.0",
-  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.19.0.zip",
-  "released": "2026-11-08T15:01:38Z",
+  "version": "0.20.0",
+  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.20.0.zip",
+  "released": "2026-11-12T10:13:19Z",
   "requires_php": "8.1",
   "requires": "6.4",
-  "changelog": "- Header strip shows a hand-written right-side label without a phone number; hero video gets an optional pause button (off by default) and a shape note; social share image tucked under an optional toggle\n- Buttons in article text keep their own label colour (the text-link rule no longer paints them); widev gets square buttons and a white primary label by default"
+  "changelog": "- Quotes in the article text: italic text font, set in from a side line in the primary colour (Styles: Quote side line colour and width); FAQ answer quotes use the same line\n- Release 0.20.0\n- Article list: 'Hide from the blog list' switch per article (also skipped by automatic Keep reading); cards show the hero video poster or social image when there is no featured image; list pages 2+ get their own description and /page/ and /page/1/ redirect to the list\n- Pagination: the current page uses the primary button colours and the site's box corners (square when Box corners = 0); text that is the same colour as its background is shown in white/black by the build, and the Styles tab now also warns for colours typed as variables\n- FAQ answers are tidied into semantic HTML (loose text gets a paragraph, loose list items a list, tables scroll sideways on phones) and styled like the article text: lists, bold, links, quotes, code, tables"
 }
