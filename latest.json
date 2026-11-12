@@ -1,8 +1,8 @@
 {
-  "version": "0.21.0",
-  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.21.0.zip",
-  "released": "2026-11-12T11:24:44Z",
+  "version": "0.22.0",
+  "zip": "https://raw.githubusercontent.com/widevpro/wp-astro-releases/main/wp-astro-0.22.0.zip",
+  "released": "2026-11-12T12:03:04Z",
   "requires_php": "8.1",
   "requires": "6.4",
-  "changelog": "- Hero video: the WebM / MP4 windows list every video (a file filed under another type no longer vanishes after upload); a wrong type is refused with a message that names it and how to convert a .mov\n- Body editor: Quote button and a Cite button for the author or source under it (also in the HTML tab)\n- TL;DR box: square corners by default (no border radius)"
+  "changelog": "- Videos in the text: [video] takes controls=\"off\" and mobile=\"off\"; autoplay is always muted and inline so it plays on phones; WebM is listed before MP4; the video fills the text column"
 }
